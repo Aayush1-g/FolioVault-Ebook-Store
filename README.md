@@ -1,75 +1,77 @@
-📚 Folio Vault: MERN eBook Store
-Folio Vault is a full-stack digital marketplace for eBooks. It provides a seamless shopping journey from discovery to delivery, allowing users to browse titles and manage carts while providing admins with full oversight of sales and inventory.
+📚 FolioVault (MERN Stack)
+A comprehensive digital ebook store solution built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-🚀 Key Features
+This application features dual-role access for Customers (Users) and Store Managers (Admins), providing a seamless experience for browsing, purchasing, and managing digital books.
 
-👤For Users:
+🚀 Features
+👤 For Users
+Storefront: Browse through the complete collection of ebooks
 
-Dynamic Catalog: Browse eBooks with a clean, responsive interface.
+Book Details: View descriptions, ratings, and pricing for every title
 
-Smart Search: Filter books by genre and categories instantly.
+Cart System: Add multiple books to a persistent shopping cart
 
-Shopping Cart: Add/remove items with persistent state management.
+Wishlist: Save favorite books for future purchases
 
-Order Placement: Complete checkout workflow for digital book purchases.
+Checkout: Seamless order placement and checkout process
 
-Book Details: View metadata like Author, Pages, Publisher, and Language.
+Auth: Secure user registration and login functionality
 
-🧑🏻‍💻For Admins:
+🛠️ For Admins (Store Managers)
+Admin Dashboard: Overview of store inventory and sales
 
-Inventory Control: Add, update, or delete books from the database.
+Inventory Management: Full CRUD operations (Create, Read, Update, Delete) for books
 
-Order Management: Track recent sales, customer info, and total revenue.
+Order Management: View and track customer orders
 
-User Oversight: Monitor the library's user base through a dedicated panel.
+User Records: Monitor registered user activity
 
-🛠 Tech Stack
-Frontend: React.js (UI & State Management)
+Inventory Filtering: Dedicated interface for quick stock management
 
-Backend: Node.js & Express.js (REST API & Routing)
+🛠️ Tech Stack
+Frontend: React.js, Vite, Tailwind CSS, Context API
 
-Database: MongoDB & Mongoose (NoSQL Data Storage)
+Backend: Node.js, Express.js
 
-API Calls: Axios / Fetch API
+Database: MongoDB
 
-Styling: CSS3 (Modern Dark-Mode UI)
+Authentication: JWT (JSON Web Tokens) & LocalStorage
 
-Environment: Dotenv (Secure credential management)
+⚙️ Installation & Setup
+1. Clone the repository
+Bash
+git clone https://github.com/Aayush1-g/FolioVault-Ebook-Store.git
+cd FolioVault-Ebook-Store
+2. Install dependencies
+Bash
+# Root dependencies
+npm install
+
+# Backend dependencies
+cd backend && npm install
+
+# Frontend dependencies
+cd ../frontend && npm install
+3. Run the project
+Bash
+# In the backend folder
+npm start
+
+# In the frontend folder
+npm run dev
+🌐 Default Ports
+Frontend: http://localhost:5173
+
+Backend: http://localhost:5000
 
 📂 Project Structure
-backend/ - Express API, MongoDB models, and server logic.
+Plaintext
+FolioVault-Ebook-Store
+│
+├── backend/       # Node/Express API & Models
+├── frontend/      # React/Vite UI & Components
+📌 Note
+For the best performance and UI responsiveness, it is recommended to view the application on a Desktop/Laptop browser.
 
-frontend/ - React application, components, and assets.
-
-.gitignore - Rules to keep the repository clean and secure.
-
-⚙️ How to Run
-Clone the project: git clone [YOUR_REPO_LINK]
-
-Setup Backend:
-
-Go to /backend
-
-Run npm install
-
-Create a .env file with your MONGODB_URI
-
-Run npm start
-
-Setup Frontend:
-
-Go to /frontend
-
-Run npm install
-
-Run npm start
-
-🔒 Security Highlights
-Hidden Secrets: Database credentials are kept in .env and ignored by Git.
-
-Decoupled Logic: The frontend never talks to the database directly; it uses a secure API layer.
-
-Clean Repo: All unnecessary files (node_modules) are excluded for a lightweight submission.
-
-✍🏻Author:
-Aayush
+👩‍💻 Author : Aayush Ranpara
+Developed as a MERN Stack academic project submission.
