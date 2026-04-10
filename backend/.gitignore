@@ -1,0 +1,13 @@
+# Ignore the folder where all the libraries are installed
+node_modules/
+
+# Ignore your secret database connection string (CRITICAL)
+.env
+
+# Ignore logs and debug files
+*.log
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
