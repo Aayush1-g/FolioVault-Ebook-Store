@@ -2,7 +2,7 @@
 Folio Vault is a full-stack digital marketplace for eBooks. It provides a seamless shopping journey from discovery to delivery, allowing users to browse titles and manage carts while providing admins with full oversight of sales and inventory.
 
 🚀 Key Features
-For Users:
+👤For Users:
 
 Dynamic Catalog: Browse eBooks with a clean, responsive interface.
 
@@ -14,7 +14,7 @@ Order Placement: Complete checkout workflow for digital book purchases.
 
 Book Details: View metadata like Author, Pages, Publisher, and Language.
 
-For Admins:
+🧑🏻‍💻For Admins:
 
 Inventory Control: Add, update, or delete books from the database.
 
@@ -69,3 +69,6 @@ Hidden Secrets: Database credentials are kept in .env and ignored by Git.
 Decoupled Logic: The frontend never talks to the database directly; it uses a secure API layer.
 
 Clean Repo: All unnecessary files (node_modules) are excluded for a lightweight submission.
+
+✍🏻Author:
+Aayush
