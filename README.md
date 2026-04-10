@@ -2,6 +2,7 @@
 Folio Vault is a full-stack digital marketplace for eBooks. It provides a seamless shopping journey from discovery to delivery, allowing users to browse titles and manage carts while providing admins with full oversight of sales and inventory.
 
 🚀 Key Features
+
 👤For Users:
 
 Dynamic Catalog: Browse eBooks with a clean, responsive interface.
